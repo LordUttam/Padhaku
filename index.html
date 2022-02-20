@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://use.fontawesome.com/6d5bbe7895.js"></script>
+    <link rel="stylesheet" href="https://kalpaui.netlify.app/styles/main.css">
+    <link rel="stylesheet" href="./styles/index.css">
+    <title>Padhaku | Home</title>
+</head>
+
+<body>
+    <header class="header--std">
+        <nav class="nav--std">
+            <ul class="header__list--align-start">
+                <!-- <li class="header__btn"><i class="fa fa-bars"></i></li> -->
+                <li class="header__title"><a href="./index.html">Padhaku</a></li>
+            </ul>
+            <div class="search-container">
+                <div class="input__container flex--inline">
+                    <input type="text" class="input" placeholder="Search Here">
+                </div>
+                <button class="search-btn"><i class='bx bx-search'></i></button>
+            </div>
+            <ul class="header__list--align-end">
+                <li class="color--primary header__btn m--x-0-5"><a href="./pages/login.html" class="p--x-1">Login</a>
+                </li>
+                <li class="header__btn m--x-0-5"><a href="./pages/login.html" class="p--x-1"><i
+                            class='bx bxs-heart'></i>Wishlist</a>
+                </li>
+                <li class="header__btn m--x-0-5"> <a href="./cart.html" class="p--x-1"><i
+                            class='bx bxs-cart'></i>Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="flex flex__dir--col align--center">
+        <section class="carousel">
+            <button class="carousel__button carousel__button--prev">&#10094;</button>
+            <div class="carousel__track-container">
+                <ul class="carousel__track">
+                    <li class="carousel__slide current-slide">
+                        <img src="../assets/book-sale.png" alt="Sale poster" class="carousel__image">
+                    </li>
+                    <li class="carousel__slide">
+                        <img src="../assets/book-sale-2.jpg" alt="Sale poster" class="carousel__image">
+                    </li>
+                    <li class="carousel__slide">
+                        <img src="../assets/book-sale.png" alt="Sale poster" class="carousel__image">
+                    </li>
+                </ul>
+            </div>
+            <button class="carousel__button carousel__button--next">&#10095;</button>
+
+            <div class="carousel__nav">
+                <button class="carousel__position current-slide"></button>
+                <button class="carousel__position"></button>
+                <button class="carousel__position"></button>
+            </div>
+        </section>
+
+        <h2 class="h--2 featured__heading m__t-1 m__b-0">Featured</h2>
+        <section class="featured flex justify--center p--x-2 p--y-2">
+            <div class="card card--horizontal">
+                <div class="card__image">
+                    <img src="../assets/bitsat.jpg">
+                </div>
+
+                <div class="card__header">
+                    <h2 class="card__title">Exam Prep</h2>
+                    <h3 class="card__subtitle font--gray">75% off Rs. 99</h3>
+                </div>
+
+                <div class="card__actions m--y-0-5 p--y-1 btn__container">
+                    <button class="btn btn--primary shadow-hover--none p--y-2">Explore</button>
+                </div>
+            </div>
+            <div class="card card--horizontal">
+                <div class="card__image">
+                    <img src="../assets/danbrown.jpg">
+                </div>
+
+                <div class="card__header">
+                    <h2 class="card__title">Dan Brown</h2>
+                    <h3 class="card__subtitle font--gray">75% off Rs. 99/book</h3>
+                </div>
+
+                <div class="card__actions m--y-0-5 p--y-1 btn__container">
+                    <button class="btn btn--primary shadow-hover--none p--y-2">Explore</button>
+                </div>
+            </div>
+            <div class="card card--horizontal">
+                <div class="card__image">
+                    <img src="../assets/selfhelp.png">
+                </div>
+
+                <div class="card__header">
+                    <h2 class="card__title">Self Help</h2>
+                    <h3 class="card__subtitle font--gray">50% off Rs. 199/book</h3>
+                </div>
+
+                <div class="card__actions m--y-0-5 p--y-1 btn__container">
+                    <button class="btn btn--primary shadow-hover--none p--y-2">Explore</button>
+                </div>
+            </div>
+            <div class="card card--horizontal">
+                <div class="card__image">
+                    <img src="../assets/schoolbooks.jpg">
+                </div>
+
+                <div class="card__header">
+                    <h2 class="card__title">School Books</h2>
+                    <h3 class="card__subtitle font--gray">50% off Rs. 109/book</h3>
+                </div>
+
+                <div class="card__actions m--y-0-5 p--y-1 btn__container">
+                    <button class="btn btn--primary shadow-hover--none p--y-2">Explore</button>
+                </div>
+            </div>
+            <div class="card card--horizontal">
+                <div class="card__image">
+                    <img src="../assets/classics.jpg">
+                </div>
+
+                <div class="card__header">
+                    <h2 class="card__title">Classics</h2>
+                    <h3 class="card__subtitle font--gray">65% off Rs. 129/book</h3>
+                </div>
+
+                <div class="card__actions m--y-0-5 p--y-1 btn__container">
+                    <button class="btn btn--primary shadow-hover--none p--y-2">Explore</button>
+                </div>
+            </div>
+            <div class="card card--horizontal">
+                <div class="card__image">
+                    <img src="../assets/poetry.jpg">
+                </div>
+
+                <div class="card__header">
+                    <h2 class="card__title">Poetry</h2>
+                    <h3 class="card__subtitle font--gray">50% off Rs. 199/book</h3>
+                </div>
+
+                <div class="card__actions m--y-0-5 p--y-1 btn__container">
+                    <button class="btn btn--primary shadow-hover--none p--y-2">Explore</button>
+                </div>
+            </div>
+        </section>
+
+        <h2 class="h--2 trending__heading m__t-1 m__b-0">Trending</h2>
+        <section class="trending flex justify--center p--x-2 p--y-2">
+            <div class="card">
+                <div class="card__image">
+                    <img src="../assets/savarkar.jpg">
+                </div>
+
+                <div class="card__header">
+                    <h2 class="card__title">Savarkar (Part 1)</h2>
+                    <h3 class="card__subtitle font--gray">Vikram Sampath</h3>
+                    <h3 class="card__subtitle font--gray">Rs. 99</h3>
+                </div>
+
+                <div class="card__actions m--y-0-5 p--y-1 btn__container">
+                    <button class="btn btn--primary shadow-hover--none p--y-2">Buy Now</button>
+                    <button class="btn btn--outline shadow-hover--none p--y-2">Add to Cart</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__image">
+                    <img src="../assets/one-arr-mur.jpg">
+                </div>
+
+                <div class="card__header">
+                    <h2 class="card__title">One Arranged Murder</h2>
+                    <h3 class="card__subtitle font--gray">Chetan Bhagat</h3>
+                    <p class="card__text"> Rs. 99</p>
+                </div>
+
+                <div class="card__actions m--y-0-5 p--y-1 btn__container">
+                    <button class="btn btn--primary shadow-hover--none p--y-2">Buy Now</button>
+                    <button class="btn btn--outline shadow-hover--none p--y-2">Add to Cart</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__image">
+                    <img src="../assets/auto-yogi.jpg">
+                </div>
+
+                <div class="card__header">
+                    <h2 class="card__title">Autobiography of a Yogi</h2>
+                    <h3 class="card__subtitle font--gray">Paramhansa Yogananda</h3>
+                    <p class="card__text"> Rs. 98</p>
+                </div>
+
+                <div class="card__actions m--y-0-5 p--y-1 btn__container">
+                    <button class="btn btn--primary shadow-hover--none p--y-2">Buy Now</button>
+                    <button class="btn btn--outline shadow-hover--none p--y-2">Add to Cart</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__image">
+                    <img src="../assets/chanakya-neeti.jpg">
+                </div>
+
+                <div class="card__header">
+                    <h2 class="card__title">Chanakya Neeti</h2>
+                    <h3 class="card__subtitle font--gray">Ashwini Parashar</h3>
+                    <p class="card__text"> Rs. 120</p>
+                </div>
+
+                <div class="card__actions m--y-0-5 p--y-1 btn__container">
+                    <button class="btn btn--primary shadow-hover--none p--y-2">Buy Now</button>
+                    <button class="btn btn--outline shadow-hover--none p--y-2">Add to Cart</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__image">
+                    <img src="../assets/yolo.jpg">
+                </div>
+
+                <div class="card__header">
+                    <h2 class="card__title">You Only Live Once</h2>
+                    <h3 class="card__subtitle font--gray">Stuti Changle</h3>
+                    <h3 class="card__subtitle font--gray">Rs. 129</h3>
+                </div>
+
+                <div class="card__actions m--y-0-5 p--y-1 btn__container">
+                    <button class="btn btn--primary shadow-hover--none p--y-2">Buy Now</button>
+                    <button class="btn btn--outline shadow-hover--none p--y-2">Add to Cart</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__image">
+                    <img src="../assets/savarkar2.jpg">
+                </div>
+
+                <div class="card__header">
+                    <h2 class="card__title">Savarkar (Part 2)</h2>
+                    <h3 class="card__subtitle font--gray">Vikram Sampath</h3>
+                    <p class="card__text"> Rs. 199/book</p>
+                </div>
+
+                <div class="card__actions m--y-0-5 p--y-1 btn__container">
+                    <button class="btn btn--primary shadow-hover--none p--y-2">Buy Now</button>
+                    <button class="btn btn--outline shadow-hover--none p--y-2">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__heading">Made with ❤️ by Uttam Sharma</div>
+        <ul class="social__links unordered-list">
+            <li class="footer__buttons">
+                <a class="link" href="https://github.com/LordUttam/" target="_blank">
+                    <i class="fa fa-github"></i>
+                </a>
+            </li>
+            <li class="footer__buttons">
+                <a class="link" href="https://www.linkedin.com/in/uttam-sharma-55a588178/" target="_blank">
+                    <i class="fa fa-linkedin"></i>
+                </a>
+            </li>
+            <li class="footer__buttons">
+                <a class="link" href="mailto:sharmaji.uttam@gmail.com" target="_blank">
+                    <i class="fa fa-envelope-o"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="./scripts/carousel.js"></script>
+</body>
+
+</html>
