@@ -12,6 +12,20 @@
   cursor: pointer;
 }
 
+.card {
+  width: 20%;
+}
+
+.card__image {
+  height: 15rem;
+  aspect-ratio: unset;
+}
+
+.card__image img {
+  height: 15rem;
+  object-fit: contain;
+}
+
 .card__heart-btn i {
   font-size: 2rem;
 }
