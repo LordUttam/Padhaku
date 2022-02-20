@@ -1,0 +1,59 @@
+.cart {
+  gap: 5vh;
+  width: 50%;
+}
+
+.card {
+  width: 90%;
+}
+
+.cart .card .card__image {
+  height: 15rem;
+  width: min-content;
+  aspect-ratio: unset;
+  flex-basis: auto;
+}
+
+.card__image > img {
+  object-fit: contain;
+  height: 100%;
+  width: auto;
+}
+
+.card--horizontal {
+  height: unset;
+}
+
+.card__title {
+  font-size: 2rem;
+}
+
+.card__subtitle {
+  font-size: 1.5rem;
+}
+
+.card__text {
+  font-size: 1.25rem;
+  color: var(--neutral-color);
+}
+
+.card .card__body {
+  justify-content: space-around;
+  flex-grow: 1;
+}
+
+.input--qty {
+  width: 2rem;
+}
+
+.quantity .btn {
+  box-sizing: border-box;
+}
+
+.price {
+  align-self: flex-start;
+}
+
+.card__badge {
+  font-size: 1.25rem;
+}
