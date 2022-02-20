@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Uttam Sharma">
+    <script src="https://use.fontawesome.com/6d5bbe7895.js"></script>
+    <link rel="stylesheet" href="https://kalpaui.netlify.app/styles/main.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/auth.css">
+
+    <title>Padhaku | Login</title>
+</head>
+
+<body>
+    <header class="header--std">
+        <nav class="nav--std">
+            <ul class="header__list--align-start">
+                <li class="header__title"><a href="../index.html">Padhaku</a></li>
+            </ul>
+            <div class="search-container">
+                <div class="input__container flex--inline">
+                    <input type="text" class="input" placeholder="Search Here">
+                </div>
+                <button class="search-btn"><i class='bx bx-search'></i></button>
+            </div>
+            <ul class="header__list--align-end">
+                <li class="color--primary header__btn m--x-0-5"><a href="./signup.html" class="p--x-1">Sign up</a>
+                </li>
+                <li class="header__btn m--x-0-5"><a href="./wishlist.html" class="p--x-1"><i
+                            class='bx bxs-heart'></i>Wishlist</a>
+                </li>
+                <li class="header__btn m--x-0-5"> <a href="./cart.html" class="p--x-1"><i
+                            class='bx bxs-cart'></i>Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="login flex flex--center">
+        <div class="card p--3 m--y-1">
+            <h2 class="h--2">Login</h2>
+            <form action="POST" class="flex flex__dir--col align--center">
+                <div class="input__container m--y-0-5">
+                    <label class="label--text">Email Address</label>
+                    <input class="input input--text" type="email" placeholder="frequentbuyer@xmail.com">
+                </div>
+                <div class="input__container m--y-0-5">
+                    <label class="label--text">Password</label>
+                    <input class="input input--text" type="password" placeholder="*********">
+                </div>
+                <div class="input__container--row m--y-0-5">
+                    <input type="checkbox">
+                    <label class="label--text">Remember me</label>
+                </div>
+                <button class="btn btn--primary p--1">Login</button>
+            </form>
+
+            <p class="m--y-1 signup-link"> <a href="./signup.html">New user? Create an account here</a></p>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__heading">Made with ❤️ by Uttam Sharma</div>
+        <ul class="social__links unordered-list">
+            <li class="footer__buttons">
+                <a class="link" href="https://github.com/LordUttam/" target="_blank">
+                    <i class="fa fa-github"></i>
+                </a>
+            </li>
+            <li class="footer__buttons">
+                <a class="link" href="https://www.linkedin.com/in/uttam-sharma-55a588178/" target="_blank">
+                    <i class="fa fa-linkedin"></i>
+                </a>
+            </li>
+            <li class="footer__buttons">
+                <a class="link" href="mailto:sharmaji.uttam@gmail.com" target="_blank">
+                    <i class="fa fa-envelope-o"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+</body>
+
+</html>
