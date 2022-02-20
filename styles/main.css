@@ -127,16 +127,16 @@ div.input__container {
 }
 
 .footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 1rem;
+
   background-color: var(--primary-color);
   padding: 2rem 1rem;
   text-align: center;
   color: white;
   font-size: 1.125rem;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  gap: 1rem;
 }
 
 .footer .link {

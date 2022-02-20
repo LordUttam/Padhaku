@@ -42,7 +42,7 @@ p.login-link {
   font-weight: bold;
 }
 
-.t-and-c {
+a.terms-conditions {
   display: inline;
   color: var(--primary-color);
 }
