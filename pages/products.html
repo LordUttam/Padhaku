@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Uttam Sharma">
+    <script src="https://use.fontawesome.com/6d5bbe7895.js"></script>
+    <link rel="stylesheet" href="https://kalpaui.netlify.app/styles/main.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/products.css">
+
+    <title>Padhaku | Cart</title>
+</head>
+
+<body>
+    <header class="header--std">
+        <nav class="nav--std">
+            <ul class="header__list--align-start">
+                <li class="header__title"><a href="../index.html">Padhaku</a></li>
+            </ul>
+            <div class="search-container">
+                <div class="input__container flex--inline">
+                    <input type="text" class="input" placeholder="Search Here">
+                </div>
+                <button class="search-btn"><i class='bx bx-search'></i></button>
+            </div>
+            <ul class="header__list--align-end">
+                <li class="color--primary header__btn m--x-0-5"><a href="../index.html" class="p--x-1">Logout</a>
+                </li>
+                <li class="header__btn m--x-0-5"><a href="./wishlist.html" class="p--x-1"><i
+                            class='bx bxs-heart'></i>Wishlist</a>
+                </li>
+                <li class="header__btn m--x-0-5"> <a href="./cart.html" class="p--x-1"><i
+                            class='bx bxs-cart'></i>Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <div class="flex p--y-2">
+            <aside class="filters flex flex__dir--col items--start p--x-1">
+
+                <div class="flex justify--between items--baseline">
+                    <h3 class="heading h--3 m__b-1">Filters</h3>
+                    <button class="btn btn--link text--xs">Clear filters</button>
+                </div>
+
+                <div class="flex flex__dir--col fiters__category">
+                    <h4 class="heading h--4 m__t-1">Categories</h4>
+                    <ul class="list--stacked items--start p--0">
+                        <li><input type="checkbox">Exam Preparation</li>
+                        <li><input type="checkbox">Self Help</li>
+                        <li><input type="checkbox">Poetry</li>
+                        <li><input type="checkbox">Classics</li>
+                        <li><input type="checkbox">School Books</li>
+                    </ul>
+                </div>
+                <div class="flex flex__dir--col fiters__price">
+                    <h4 class="heading h--4 m__t-1">Price</h4>
+                    <input type="range" class="m__l-1">
+                    <div class="flex justify--between m__l-1">
+                        <span>₹75</span>
+                        <span>₹500</span>
+                    </div>
+                </div>
+                <div class="flex flex__dir--col fiters__ratings">
+                    <label class="heading h--4 m__t-1">Ratings</label>
+                    <ul class="list--stacked items--start p--0">
+                        <li><input type="radio" name="rating-ops">4 stars & above</li>
+                        <li><input type="radio" name="rating-ops">3 stars & above</li>
+                        <li><input type="radio" name="rating-ops">2 stars & above</li>
+                        <li><input type="radio" name="rating-ops">1 star & above</li>
+                    </ul>
+                </div>
+                <div class="flex flex__dir--col fiters__cover-type">
+                    <h4 class="heading h--4 m__t-1">Cover type</h4>
+                    <ul class="list--stacked items--start p--0">
+                        <li><input type="checkbox">Hard Cover</li>
+                        <li><input type="checkbox">Paperback</li>
+                    </ul>
+                </div>
+            </aside>
+
+            <section class="products flex flex__wrap--wrap m--x-1">
+                <div class="card__container justify--center items--center m--y-1">
+                    <div class="card m--0-auto">
+                        <div class="card__image">
+                            <img src="../assets/chanakya-neeti.jpg">
+                        </div>
+
+                        <div class="card__header">
+                            <h2 class="card__title">Chanakya Neeti</h2>
+                            <h3 class="card__subtitle font--gray">Ashwini Parashar</h3>
+                            <p class="card__text">
+                                <span class="text--strike text--gray">₹140</span>
+                                <span class="text--sm text--bold">₹98</span>
+                            </p>
+                        </div>
+
+                        <div class="card__actions m--y-0-5 p--y-1 btn__container">
+                            <button class="btn btn--primary shadow-hover--none p--y-2">Buy Now</button>
+                            <button class="btn btn--outline shadow-hover--none p--y-2">Add to Cart</button>
+                        </div>
+                        <span class="card__heart-btn flex flex--center"><i class="bx bxs-heart"></i></span>
+                    </div>
+                </div>
+                <div class="card__container justify--center items--center m--y-1">
+                    <div class="card m--0-auto">
+                        <div class="card__image">
+                            <img src="../assets/chanakya-neeti.jpg">
+                        </div>
+
+                        <div class="card__header">
+                            <h2 class="card__title">Chanakya Neeti</h2>
+                            <h3 class="card__subtitle font--gray">Ashwini Parashar</h3>
+                            <p class="card__text">
+                                <span class="text--strike text--gray">₹140</span>
+                                <span class="text--sm text--bold">₹98</span>
+                            </p>
+                        </div>
+
+                        <div class="card__actions m--y-0-5 p--y-1 btn__container">
+                            <button class="btn btn--primary shadow-hover--none p--y-2">Buy Now</button>
+                            <button class="btn btn--outline shadow-hover--none p--y-2">Add to Cart</button>
+                        </div>
+                        <span class="card__heart-btn flex flex--center"><i class="bx bxs-heart"></i></span>
+                    </div>
+                </div>
+                <div class="card__container justify--center items--center m--y-1">
+                    <div class="card m--0-auto">
+                        <div class="card__image">
+                            <img src="../assets/chanakya-neeti.jpg">
+                        </div>
+
+                        <div class="card__header">
+                            <h2 class="card__title">Chanakya Neeti</h2>
+                            <h3 class="card__subtitle font--gray">Ashwini Parashar</h3>
+                            <p class="card__text">
+                                <span class="text--strike text--gray">₹140</span>
+                                <span class="text--sm text--bold">₹98</span>
+                            </p>
+                        </div>
+
+                        <div class="card__actions m--y-0-5 p--y-1 btn__container">
+                            <button class="btn btn--primary shadow-hover--none p--y-2">Buy Now</button>
+                            <button class="btn btn--outline shadow-hover--none p--y-2">Add to Cart</button>
+                        </div>
+                        <span class="card__heart-btn flex flex--center"><i class="bx bxs-heart"></i></span>
+                    </div>
+                </div>
+                <div class="card__container justify--center items--center m--y-1">
+                    <div class="card m--0-auto">
+                        <div class="card__image">
+                            <img src="../assets/chanakya-neeti.jpg">
+                        </div>
+
+                        <div class="card__header">
+                            <h2 class="card__title">Chanakya Neeti</h2>
+                            <h3 class="card__subtitle font--gray">Ashwini Parashar</h3>
+                            <p class="card__text">
+                                <span class="text--strike text--gray">₹140</span>
+                                <span class="text--sm text--bold">₹98</span>
+                            </p>
+                        </div>
+
+                        <div class="card__actions m--y-0-5 p--y-1 btn__container">
+                            <button class="btn btn--primary shadow-hover--none p--y-2">Buy Now</button>
+                            <button class="btn btn--outline shadow-hover--none p--y-2">Add to Cart</button>
+                        </div>
+                        <span class="card__heart-btn flex flex--center"><i class="bx bxs-heart"></i></span>
+                    </div>
+                </div>
+                <div class="card__container justify--center items--center m--y-1">
+                    <div class="card m--0-auto">
+                        <div class="card__image">
+                            <img src="../assets/chanakya-neeti.jpg">
+                        </div>
+
+                        <div class="card__header">
+                            <h2 class="card__title">Chanakya Neeti</h2>
+                            <h3 class="card__subtitle font--gray">Ashwini Parashar</h3>
+                            <p class="card__text">
+                                <span class="text--strike text--gray">₹140</span>
+                                <span class="text--sm text--bold">₹98</span>
+                            </p>
+                        </div>
+
+                        <div class="card__actions m--y-0-5 p--y-1 btn__container">
+                            <button class="btn btn--primary shadow-hover--none p--y-2">Buy Now</button>
+                            <button class="btn btn--outline shadow-hover--none p--y-2">Add to Cart</button>
+                        </div>
+                        <span class="card__heart-btn flex flex--center"><i class="bx bxs-heart"></i></span>
+                    </div>
+                </div>
+                <div class="card__container justify--center items--center m--y-1">
+                    <div class="card m--0-auto">
+                        <div class="card__image">
+                            <img src="../assets/chanakya-neeti.jpg">
+                        </div>
+
+                        <div class="card__header">
+                            <h2 class="card__title">Chanakya Neeti</h2>
+                            <h3 class="card__subtitle font--gray">Ashwini Parashar</h3>
+                            <p class="card__text">
+                                <span class="text--strike text--gray">₹140</span>
+                                <span class="text--sm text--bold">₹98</span>
+                            </p>
+                        </div>
+
+                        <div class="card__actions m--y-0-5 p--y-1 btn__container">
+                            <button class="btn btn--primary shadow-hover--none p--y-2">Buy Now</button>
+                            <button class="btn btn--outline shadow-hover--none p--y-2">Add to Cart</button>
+                        </div>
+                        <span class="card__heart-btn flex flex--center"><i class="bx bxs-heart"></i></span>
+                    </div>
+                </div>
+                <div class="card__container justify--center items--center m--y-1">
+                    <div class="card m--0-auto">
+                        <div class="card__image">
+                            <img src="../assets/chanakya-neeti.jpg">
+                        </div>
+
+                        <div class="card__header">
+                            <h2 class="card__title">Chanakya Neeti</h2>
+                            <h3 class="card__subtitle font--gray">Ashwini Parashar</h3>
+                            <p class="card__text">
+                                <span class="text--strike text--gray">₹140</span>
+                                <span class="text--sm text--bold">₹98</span>
+                            </p>
+                        </div>
+
+                        <div class="card__actions m--y-0-5 p--y-1 btn__container">
+                            <button class="btn btn--primary shadow-hover--none p--y-2">Buy Now</button>
+                            <button class="btn btn--outline shadow-hover--none p--y-2">Add to Cart</button>
+                        </div>
+                        <span class="card__heart-btn flex flex--center"><i class="bx bxs-heart"></i></span>
+                    </div>
+                </div>
+                <div class="card__container justify--center items--center m--y-1">
+                    <div class="card m--0-auto">
+                        <div class="card__image">
+                            <img src="../assets/chanakya-neeti.jpg">
+                        </div>
+
+                        <div class="card__header">
+                            <h2 class="card__title">Chanakya Neeti</h2>
+                            <h3 class="card__subtitle font--gray">Ashwini Parashar</h3>
+                            <p class="card__text">
+                                <span class="text--strike text--gray">₹140</span>
+                                <span class="text--sm text--bold">₹98</span>
+                            </p>
+                        </div>
+
+                        <div class="card__actions m--y-0-5 p--y-1 btn__container">
+                            <button class="btn btn--primary shadow-hover--none p--y-2">Buy Now</button>
+                            <button class="btn btn--outline shadow-hover--none p--y-2">Add to Cart</button>
+                        </div>
+                        <span class="card__heart-btn flex flex--center"><i class="bx bxs-heart"></i></span>
+                    </div>
+                </div>
+                <div class="card__container justify--center items--center m--y-1">
+                    <div class="card m--0-auto">
+                        <div class="card__image">
+                            <img src="../assets/chanakya-neeti.jpg">
+                        </div>
+
+                        <div class="card__header">
+                            <h2 class="card__title">Chanakya Neeti</h2>
+                            <h3 class="card__subtitle font--gray">Ashwini Parashar</h3>
+                            <p class="card__text">
+                                <span class="text--strike text--gray">₹140</span>
+                                <span class="text--sm text--bold">₹98</span>
+                            </p>
+                        </div>
+
+                        <div class="card__actions m--y-0-5 p--y-1 btn__container">
+                            <button class="btn btn--primary shadow-hover--none p--y-2">Buy Now</button>
+                            <button class="btn btn--outline shadow-hover--none p--y-2">Add to Cart</button>
+                        </div>
+                        <span class="card__heart-btn flex flex--center"><i class="bx bxs-heart"></i></span>
+                    </div>
+                </div>
+                <div class="card__container justify--center items--center m--y-1">
+                    <div class="card m--0-auto">
+                        <div class="card__image">
+                            <img src="../assets/auto-yogi.jpg">
+                        </div>
+
+                        <div class="card__header">
+                            <h2 class="card__title">Autobiography of a yogi</h2>
+                            <h3 class="card__subtitle font--gray">Paramhansa Yogananda</h3>
+                            <p class="card__text">
+                                <span class="text--strike text--gray">₹140</span>
+                                <span class="text--sm text--bold">₹98</span>
+                            </p>
+                        </div>
+
+                        <div class="card__actions m--y-0-5 p--y-1 btn__container">
+                            <button class="btn btn--primary shadow-hover--none p--y-2">Buy Now</button>
+                            <button class="btn btn--outline shadow-hover--none p--y-2">Add to Cart</button>
+                        </div>
+                        <span class="card__overlay">Out of Stock</span>
+                    </div>
+                </div>
+
+
+            </section>
+        </div>
+
+    </main>
+
+    <footer class=" footer">
+        <div class="footer__heading">Made with ❤️ by Uttam Sharma</div>
+        <ul class="social__links unordered-list">
+            <li class="footer__buttons">
+                <a class="link" href="https://github.com/LordUttam/" target="_blank">
+                    <i class="fa fa-github"></i>
+                </a>
+            </li>
+            <li class="footer__buttons">
+                <a class="link" href="https://www.linkedin.com/in/uttam-sharma-55a588178/" target="_blank">
+                    <i class="fa fa-linkedin"></i>
+                </a>
+            </li>
+            <li class="footer__buttons">
+                <a class="link" href="mailto:sharmaji.uttam@gmail.com" target="_blank">
+                    <i class="fa fa-envelope-o"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+</body>
+
+</html>

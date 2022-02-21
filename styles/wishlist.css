@@ -12,6 +12,10 @@
   cursor: pointer;
 }
 
+.card__heart-btn i {
+  font-size: 2rem;
+}
+
 .card {
   width: 20%;
 }
@@ -24,10 +28,6 @@
 .card__image img {
   height: 15rem;
   object-fit: contain;
-}
-
-.card__heart-btn i {
-  font-size: 2rem;
 }
 
 .wishlist {
