@@ -1,0 +1,51 @@
+.card__container {
+  width: 25%;
+}
+
+.products .card {
+  width: 90%;
+}
+
+.card__heart-btn {
+  position: absolute;
+  top: 2%;
+  right: 2%;
+  width: 3rem;
+  height: 3rem;
+
+  color: var(--error-color);
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.card__heart-btn i {
+  font-size: 2rem;
+}
+
+.products {
+  width: 100%;
+}
+
+.products .card__image > img {
+  height: 40vh;
+  object-fit: contain;
+}
+
+.filters {
+  flex-basis: 20%;
+  border-right: 1px solid var(--accent-color);
+}
+
+hr {
+  width: 100%;
+}
+
+.filters > .heading {
+  border-bottom: 2px solid var(--accent-color);
+}
+
+.filters > div {
+  width: 100%;
+}
