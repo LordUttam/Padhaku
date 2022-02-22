@@ -28,6 +28,6 @@ Also has Auth pages and a wishlist page
 code .
   
 # Tech stack
-  ## HTML
-  ## CSS
-  ## Javascript
+  - HTML
+  - CSS
+  - Javascript
