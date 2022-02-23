@@ -16,8 +16,12 @@
   font-size: 2rem;
 }
 
+.card__container {
+  width: 25%;
+}
+
 .card {
-  width: 20%;
+  flex-basis: 100%;
 }
 
 .card__image {
@@ -32,7 +36,6 @@
 
 .wishlist {
   flex-wrap: wrap;
-  gap: 5vh 5vw;
 }
 
 .wishlist__heading {
@@ -41,4 +44,67 @@
 
 .card__actions > .btn {
   padding: 0.75rem;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .wishlist .card .card__image {
+    flex-basis: auto;
+  }
+  .wishlist {
+    flex-basis: 100%;
+    flex-wrap: wrap;
+  }
+  .card__container {
+    flex-basis: 100%;
+  }
+  .wishlist .card .card__image {
+    height: 15rem;
+    aspect-ratio: 1;
+    flex-basis: auto;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .wishlist {
+    flex-basis: 100%;
+    flex-wrap: wrap;
+  }
+  .wishlist__heading {
+    margin-top: 4rem;
+  }
+  .card__container {
+    flex-basis: 50%;
+  }
+  .search__container {
+    order: 2;
+  }
+  .filters--mobile {
+    display: none;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .nav--std {
+    flex-wrap: nowrap;
+  }
+  .cart {
+    flex-basis: 100%;
+  }
+  .card__container {
+    flex-basis: 50%;
+  }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1366px) {
+  .card__container {
+    flex-basis: 33%;
+  }
+}
+
+@media only screen and (min-width: 2160px) {
+  .card__container {
+    flex-basis: 20%;
+  }
 }

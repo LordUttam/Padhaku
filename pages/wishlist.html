@@ -16,15 +16,15 @@
 
 <body>
     <header class="header--std">
-        <nav class="nav--std">
+        <nav class="nav--std flex__wrap--wrap">
             <ul class="header__list--align-start">
                 <li class="header__title"><a href="../index.html">Padhaku</a></li>
             </ul>
-            <div class="search-container">
+            <div class="search__container flex items--center justify--center">
                 <div class="input__container flex--inline">
                     <input type="text" class="input" placeholder="Search Here">
                 </div>
-                <button class="search-btn"><i class='bx bx-search'></i></button>
+                <button class="search__btn"><i class='bx bx-search'></i></button>
             </div>
             <ul class="header__list--align-end">
                 <li class="color--primary header__btn m--x-0-5"><a href="../index.html" class="p--x-1">Logout</a>
@@ -34,78 +34,90 @@
             </ul>
         </nav>
     </header>
-    <main class="flex flex__dir--col align--center">
+    <main class="flex flex__dir--col">
 
         <h2 class="h--2 wishlist__heading m__t-1 m__b-0">Wishlist</h2>
-        <section class="wishlist flex justify--center p--x-2 p--y-2">
+        <section class="wishlist flex justify--start items--start p--x-2 p--y-2">
 
-            <div class="card">
-                <div class="card__image">
-                    <img src="../assets/auto-yogi.jpg">
+            <div class="card__container justify--center items--center m--y-1">
+                <div class="card m--0-auto">
+                    <div class="card__image">
+                        <img src="../assets/auto-yogi.jpg">
+                    </div>
+
+                    <div class="card__header">
+                        <h2 class="card__title">Autobiography of a Yogi</h2>
+                        <h3 class="card__subtitle font--gray">Paramhansa Yogananda</h3>
+                        <p class="card__text"> Rs. 98</p>
+                    </div>
+
+                    <div class="card__actions m--y-0-5 p--y-1 btn__container">
+                        <button class="btn btn--primary shadow-hover--none">Move to cart</button>
+                    </div>
+
+                    <span class="card__heart-btn flex flex--center"><i class='bx bxs-heart'></i></span>
                 </div>
-
-                <div class="card__header">
-                    <h2 class="card__title">Autobiography of a Yogi</h2>
-                    <h3 class="card__subtitle font--gray">Paramhansa Yogananda</h3>
-                    <p class="card__text"> Rs. 98</p>
-                </div>
-
-                <div class="card__actions m--y-0-5 p--y-1 btn__container">
-                    <button class="btn btn--primary shadow-hover--none">Move to cart</button>
-                </div>
-
-                <span class="card__heart-btn flex flex--center"><i class='bx bxs-heart'></i></span>
             </div>
-            <div class="card">
-                <div class="card__image">
-                    <img src="../assets/chanakya-neeti.jpg">
-                </div>
 
-                <div class="card__header">
-                    <h2 class="card__title">Chanakya Neeti</h2>
-                    <h3 class="card__subtitle font--gray">Ashwini Parashar</h3>
-                    <p class="card__text"> Rs. 120</p>
-                </div>
+            <div class="card__container justify--center items--center m--y-1">
+                <div class="card m--0-auto">
+                    <div class="card__image">
+                        <img src="../assets/chanakya-neeti.jpg">
+                    </div>
 
-                <div class="card__actions m--y-0-5 p--y-1 btn__container">
-                    <button class="btn btn--primary shadow-hover--none">Buy Now</button>
-                </div>
+                    <div class="card__header">
+                        <h2 class="card__title">Chanakya Neeti</h2>
+                        <h3 class="card__subtitle font--gray">Ashwini Parashar</h3>
+                        <p class="card__text"> Rs. 120</p>
+                    </div>
 
-                <span class="card__heart-btn flex flex--center"><i class='bx bxs-heart'></i></span>
+                    <div class="card__actions m--y-0-5 p--y-1 btn__container">
+                        <button class="btn btn--primary shadow-hover--none">Buy Now</button>
+                    </div>
+
+                    <span class="card__heart-btn flex flex--center"><i class='bx bxs-heart'></i></span>
+                </div>
             </div>
-            <div class="card">
-                <div class="card__image">
-                    <img src="../assets/auto-yogi.jpg">
-                </div>
 
-                <div class="card__header">
-                    <h2 class="card__title">Autobiography of a Yogi</h2>
-                    <h3 class="card__subtitle font--gray">Paramhansa Yogananda</h3>
-                    <p class="card__text"> Rs. 98</p>
-                </div>
+            <div class="card__container justify--center items--center m--y-1">
+                <div class="card m--0-auto">
+                    <div class="card__image">
+                        <img src="../assets/auto-yogi.jpg">
+                    </div>
 
-                <div class="card__actions m--y-0-5 p--y-1 btn__container">
-                    <button class="btn btn--primary shadow-hover--none">Buy Now</button>
-                </div>
+                    <div class="card__header">
+                        <h2 class="card__title">Autobiography of a Yogi</h2>
+                        <h3 class="card__subtitle font--gray">Paramhansa Yogananda</h3>
+                        <p class="card__text"> Rs. 98</p>
+                    </div>
 
-                <span class="card__heart-btn flex flex--center"><i class='bx bxs-heart'></i></span>
+                    <div class="card__actions m--y-0-5 p--y-1 btn__container">
+                        <button class="btn btn--primary shadow-hover--none">Buy Now</button>
+                    </div>
+
+                    <span class="card__heart-btn flex flex--center"><i class='bx bxs-heart'></i></span>
+                </div>
             </div>
-            <div class="card">
-                <div class="card__image">
-                    <img src="../assets/chanakya-neeti.jpg">
-                </div>
 
-                <div class="card__header">
-                    <h2 class="card__title">Chanakya Neeti</h2>
-                    <h3 class="card__subtitle font--gray">Ashwini Parashar</h3>
-                    <p class="card__text"> Rs. 120</p>
-                </div>
 
-                <div class="card__actions m--y-0-5 p--y-1 btn__container">
-                    <button class="btn btn--primary shadow-hover--none">Buy Now</button>
-                </div>
+            <div class="card__container justify--center items--center m--y-1">
+                <div class="card m--0-auto">
+                    <div class="card__image">
+                        <img src="../assets/chanakya-neeti.jpg">
+                    </div>
 
-                <span class="card__heart-btn flex flex--center"><i class='bx bxs-heart'></i></span>
+                    <div class="card__header">
+                        <h2 class="card__title">Chanakya Neeti</h2>
+                        <h3 class="card__subtitle font--gray">Ashwini Parashar</h3>
+                        <p class="card__text"> Rs. 120</p>
+                    </div>
+
+                    <div class="card__actions m--y-0-5 p--y-1 btn__container">
+                        <button class="btn btn--primary shadow-hover--none">Buy Now</button>
+                    </div>
+
+                    <span class="card__heart-btn flex flex--center"><i class='bx bxs-heart'></i></span>
+                </div>
             </div>
         </section>
     </main>
