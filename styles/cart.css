@@ -1,0 +1,108 @@
+.cart {
+  gap: 5vh;
+  flex-basis: 50%;
+}
+
+.card__container {
+  width: 75%;
+  flex-grow: 1;
+}
+
+.card {
+  width: 100%;
+}
+
+.cart .card .card__image {
+  height: 15rem;
+  aspect-ratio: unset;
+  flex-basis: 25%;
+}
+
+.card__image > img {
+  height: 100%;
+  width: auto;
+}
+
+.card--horizontal {
+  height: unset;
+}
+
+.card__title {
+  font-size: 2rem;
+}
+
+.card__subtitle {
+  font-size: 1.5rem;
+}
+
+.card__text {
+  font-size: 1.25rem;
+  color: var(--neutral-color);
+}
+
+.card .card__body {
+  justify-content: space-around;
+  flex-grow: 1;
+}
+
+.input--qty {
+  width: 2rem;
+}
+
+.quantity .btn {
+  box-sizing: border-box;
+}
+
+.price-section {
+  align-self: flex-start;
+  margin-top: 10vh;
+}
+
+.price {
+  align-self: flex-start;
+}
+
+.card__badge {
+  font-size: 1.25rem;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .cart .card .card__image {
+    flex-basis: auto;
+  }
+  .cart {
+    flex-basis: 100%;
+    flex-wrap: wrap;
+  }
+  .card__container {
+    flex-basis: 100%;
+  }
+  .cart .card .card__image {
+    height: 15rem;
+    aspect-ratio: 1;
+    flex-basis: auto;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .card--horizontal {
+    flex-direction: column;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .nav--std {
+    flex-wrap: nowrap;
+  }
+  .cart {
+    flex-basis: 100%;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  .cart {
+    flex-basis: 100%;
+  }
+}
